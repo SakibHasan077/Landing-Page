@@ -7,6 +7,42 @@ html{
   scroll-behavior: smooth;
 }
 :root{
+  --primary-color: #ffe600;
+  --nav-bg: rgba(0, 0, 0, 0.36);
   --white: #fff;
   --black: #000;
 }
+/* header Section Start */
+header{
+  min-height: 100vh;
+}
+nav{
+  background-color: var(--nav-bg);
+  position: fixed;
+  top: 0;
+}
+.nav-items li{
+  margin-right: 50px;
+}
+.nav-item-active{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.nav-items-ite{
+  position: relative;
+}
+.nav-items-ite a{
+  color: var(--white);
+  font-weight: 600;
+}
+.nav-items-ite a::before{
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  background-color: var(--primary-color);
+}
+/* header Section End */
