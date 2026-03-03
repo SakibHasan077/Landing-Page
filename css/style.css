@@ -75,6 +75,33 @@ nav{
   padding: 20px;
 }
 /* header Section End */
+/* Service Section Start */
+.service .title{
+  margin-top: 60px;
+  text-align: center;
+}
+.service .title .service-seb-head{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.service .title .service-main-head{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.service .title span{
+  height: 3px ;
+  width: 170px;
+  background-color: var(--primary-color);
+  display: block;
+  margin: auto;
+}
+.service .title .service-content{
+  font-size: 15px;
+  margin-top: 25px;
+}
+/* Service Section End */
 @media (max-width: 1200px) {
 
 }
