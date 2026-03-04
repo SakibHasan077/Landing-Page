@@ -101,6 +101,41 @@ nav{
   font-size: 15px;
   margin-top: 25px;
 }
+.service .service-grid{
+  margin-top: 60px;
+}
+.service .service-grid .img-sec{
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  margin: auto;
+  z-index: 111;
+  padding: 20px;
+  border-radius: 50%;
+}
+.service .service-grid .first-image {
+  background-color: var(--white);
+  border: 1px solid;
+}
+.service .service-grid .img-sec img{
+  z-index: 3348484;
+  width: 35px;
+  height: 35px;
+}
+.service .service-grid .content {
+  margin-top: 25px;
+}
+.service .service-grid .content h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+.service .service-grid .content p{
+  font-size: 15px;
+  margin-top: 25px;
+}
 /* Service Section End */
 @media (max-width: 1200px) {
 
