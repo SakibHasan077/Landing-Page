@@ -22,8 +22,6 @@ header{
 }
 nav{
   background-color: var(--nav-bg);
-  position: fixed;
-  top: 0;
 }
 .nav-items li{
   margin-right: 50px;
@@ -53,7 +51,7 @@ nav{
 .hero-section{
   text-align: center;
   height: 100%;
-  margin-top: 100px;
+  padding-top: 200px;
 }
 .hero-section h1{
   font-size: 3rem;
