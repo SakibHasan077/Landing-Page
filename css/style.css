@@ -137,6 +137,18 @@ nav{
   margin-top: 25px;
 }
 /* Service Section End */
+/* Process Section Start  */
+.process-section {
+  background-color: #151a1c;
+  padding: 65px 0;
+}
+.process-section .title h2{
+  color: var(--primary-color);
+}
+.process-section .title p{
+  color: var(--white);
+}
+/* Process Section End */
 @media (max-width: 1200px) {
 
 }
