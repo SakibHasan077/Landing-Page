@@ -146,6 +146,20 @@ nav{
 .process-section .title p{
   color: var(--white);
 }
+/* Process-grid Section */
+.process-section .process-grid{
+  margin-top: 65px;
+}
+.process-grid .content{
+  color: var(--white);
+}
+.process-section .process-grid .content h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.process-section .process-grid .content p{
+  font-size: 14px;
+}
 /* Process Section End */
 @media (max-width: 1200px) {
 
