@@ -165,6 +165,31 @@ nav{
   font-size: 14px;
 }
 /* Process Section End */
+/* Portfolio Section Start  */
+.portfolio .title{
+  margin-top: 65px;
+}
+.portfolio .title .sub-head{
+  color: #515151;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.portfolio .title h2{
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+.portfolio .title span{
+  display: block;
+  width: 175px;
+  height: 2px ;
+  background-color:  var(--primary-color);
+  margin: auto;
+}
+.portfolio .title .para{
+  font-size: 15px;
+  margin-top: 25px;
+}
+/* Portfolio Section End */
 @media (max-width: 1200px) {
 
 }
