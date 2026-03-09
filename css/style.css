@@ -189,6 +189,41 @@ nav{
   font-size: 15px;
   margin-top: 25px;
 }
+/* Navigation Menu */
+.portfolio-filter {
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio-filter ul {
+    flex-wrap: wrap;
+}
+
+.portfolio-filter li {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.portfolio-filter a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+.portfolio-filter a.active,
+.portfolio-filter a:hover {
+    color: #FFD700;
+}
+.separator {
+    height: 5px;
+    width: 5px;
+    background-color: var(--primary-color);
+    margin: 0 5px;
+    pointer-events: none;
+}
 /* Portfolio Section End */
 @media (max-width: 1200px) {
 
