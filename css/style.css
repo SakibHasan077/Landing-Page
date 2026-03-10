@@ -224,6 +224,36 @@ nav{
     margin: 0 5px;
     pointer-events: none;
 }
+/* Portfolio Image Section */
+.portfolio-img-sec{
+  display: flex;
+  gap: 40px;
+}
+.portfolio-img-sec .img-sec {
+  flex-basis: 50%;
+}
+.portfolio-img-sec img {
+  width: 100%;
+}
+.portfolio-img-sec .content{
+  flex-basis: 50%;
+  margin-top: 65px;
+  color: #707070;
+}
+.portfolio-img-sec .content h3{
+  font-size: 25px;
+}
+.portfolio-img-sec .content p{
+  margin-top: 30px;
+  font-size: 15px;
+}
+.portfolio-img-sec .content button{
+  padding: 18px 46px;
+  font-size: 20px ;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border: 0;
+}
 /* Portfolio Section End */
 @media (max-width: 1200px) {
 
