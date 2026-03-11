@@ -313,6 +313,10 @@ nav{
 .portfolio-img-sec .content button{
   padding: 15px 40px;
 }
+/* Gallery Section */
+.gallery .gallery-container {
+  grid-template-columns: repeat(5,1fr);
+}
 }
 @media (max-width: 992px) {
 /* Header */
@@ -349,6 +353,10 @@ nav{
 .portfolio-img-sec .content button{
   padding: 18px 46px;
 }
+/* Gallery Section */
+.gallery .gallery-container {
+  grid-template-columns: repeat(4,1fr);
+}
 }
 @media (max-width: 768px) {
   /* Header */
@@ -364,6 +372,10 @@ nav{
     padding: 12px;
   }
   /* Header */
+  /* Gallery Section */
+.gallery .gallery-container {
+  grid-template-columns: repeat(3,1fr);
+}
 }
 @media (max-width: 576px) {
   /* Header */
@@ -379,4 +391,7 @@ nav{
     padding: 10px;
   }
   /* Header */
+  .gallery .gallery-container {
+  grid-template-columns: repeat(2,1fr);
+}
 }
