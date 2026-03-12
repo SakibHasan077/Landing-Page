@@ -298,6 +298,18 @@ nav{
 .gallery .first-image p{
   font-size: 14px;
 }
+.gallery .arrow-btn{
+  background-color: var(--primary-color);
+  border: 0;
+  padding: 0px;
+  margin: auto;
+  height: 62px;
+  width: 62px;
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 /* Gallery Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
