@@ -311,6 +311,26 @@ nav{
   transform: translateX(-50%);
 }
 /* Gallery Section End */
+/* Question Section Start */
+.question{
+  text-align: center;
+}
+.question h2{
+  margin-top: 95px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.question p{
+  color: #707070;
+  margin-bottom: 50px;
+}
+.question button{
+  border: 0;
+  color: var(--white);
+  background-color: var(--primary-color);
+  padding: 20px 40px;
+}
+/* Question Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
