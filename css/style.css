@@ -421,6 +421,11 @@ nav{
 .gallery .gallery-container {
   grid-template-columns: repeat(4,1fr);
 }
+/* Counter Section  */
+.counter .title p{
+  padding: 20px;
+}
+/* Counter Section  */
 }
 @media (max-width: 768px) {
   /* Header */
@@ -440,6 +445,11 @@ nav{
 .gallery .gallery-container {
   grid-template-columns: repeat(3,1fr);
 }
+/* Counter Section  */
+.counter .number {
+  grid-template-columns: repeat(2,1fr);
+}
+/* Counter Section  */
 }
 @media (max-width: 576px) {
   /* Header */
