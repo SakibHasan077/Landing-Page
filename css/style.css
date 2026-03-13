@@ -331,6 +331,38 @@ nav{
   padding: 20px 40px;
 }
 /* Question Section End */
+/* Counter Section Start */
+.counter{
+  margin-top: 65px;
+  background-image: url(../image/counter-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+.counter .title {
+  padding-top: 40px;
+}
+.counter .title h2{
+  font-size: 30px;
+  margin-top: 60px;
+}
+.counter .number {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1.5rem;
+  margin-top: 60px;
+}
+.counter .counter-num{
+  border: 2px solid var(--primary-color);
+  padding-top: 20px;
+}
+.counter-num h3{
+  font-size: 40px;
+}
+.counter-num p{
+  color: var(--primary-color);
+}
+/* Counter Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
