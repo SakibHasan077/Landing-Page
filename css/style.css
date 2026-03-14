@@ -363,6 +363,36 @@ nav{
   color: var(--primary-color);
 }
 /* Counter Section End */
+/* About Us Section Start */
+.aboutUs {
+  margin-top: 65px;
+}
+.aboutUs .title h2{
+  font-size: 30px;
+  font-weight: bolder;
+  color: #000;
+  position: relative;
+}
+.aboutUs .title h2::after{
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  width: 170px;
+  height: 2px ;
+  background-color: var(--primary-color);
+  transform: translateX(-50%);
+}
+.aboutUs .title .subhead{
+  color: #515151;
+  font-size: 17px;
+}
+.aboutUs .title .para{
+  color: #515151;
+  font-size: 15px;
+  margin-top: 40px;
+}
+/* About Us Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
