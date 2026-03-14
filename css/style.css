@@ -411,6 +411,10 @@ nav{
 .gallery .gallery-container {
   grid-template-columns: repeat(5,1fr);
 }
+/* About Us */
+.aboutUs .title .para{
+  padding: 0 12px;
+}
 }
 @media (max-width: 992px) {
 /* Header */
@@ -456,6 +460,10 @@ nav{
   padding: 20px;
 }
 /* Counter Section  */
+/* About Us */
+.aboutUs .title .para{
+  padding: 0 20px;
+}
 }
 @media (max-width: 768px) {
   /* Header */
