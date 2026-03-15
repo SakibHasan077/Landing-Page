@@ -392,6 +392,29 @@ nav{
   font-size: 15px;
   margin-top: 40px;
 }
+.why-choose-us .why-choose-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
+.why-choose-container .items .img-sec div{
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.why-choose-container .items .img-sec img{
+  width: 32px;
+  height: 32px;
+}
+.why-choose-container .items h3{
+  font-size: 20px;
+  color: #515151;
+}
+.why-choose-container .items p{
+  font-size: 15px;
+  color: #707070;
+}
 /* About Us Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
