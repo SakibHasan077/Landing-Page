@@ -487,6 +487,9 @@ nav{
 .aboutUs .title .para{
   padding: 0 20px;
 }
+.why-choose-us .why-choose-container{
+  gap: .5rem;
+}
 }
 @media (max-width: 768px) {
   /* Header */
@@ -511,6 +514,11 @@ nav{
   grid-template-columns: repeat(2,1fr);
 }
 /* Counter Section  */
+/* About Us */
+.why-choose-us .why-choose-container{
+  grid-template-columns: repeat(1,1fr);
+  gap: 1.5rem;
+}
 }
 @media (max-width: 576px) {
   /* Header */
@@ -528,5 +536,9 @@ nav{
   /* Header */
   .gallery .gallery-container {
   grid-template-columns: repeat(2,1fr);
+}
+/* About us */
+.why-choose-us .why-choose-container{
+  padding: 0 20px;
 }
 }
