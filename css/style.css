@@ -535,6 +535,11 @@ nav{
 .why-choose-us .why-choose-container{
   gap: .5rem;
 }
+/* Team section */
+.team-container {
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;
+}
 }
 @media (max-width: 768px) {
   /* Header */
@@ -564,6 +569,10 @@ nav{
   grid-template-columns: repeat(1,1fr);
   gap: 1.5rem;
 }
+/* Team section */
+.team-container {
+  gap: 20px;
+}
 }
 @media (max-width: 576px) {
   /* Header */
@@ -585,5 +594,11 @@ nav{
 /* About us */
 .why-choose-us .why-choose-container{
   padding: 0 20px;
+}
+/* Team section */
+.team-container {
+  grid-template-columns: repeat(1,25rem);
+  justify-content: center;
+  gap: 50px;
 }
 }
