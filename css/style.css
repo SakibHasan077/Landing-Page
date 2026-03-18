@@ -461,6 +461,51 @@ nav{
   color: #707070;
 }
 /* Team Section End */
+/* Feedback Section Start */
+.feedback{
+  background-color: #151517;
+  height: min-content;
+  margin-top: 70px;
+  position: relative;
+}
+.feedback .feedback-container >div{
+  width: 34rem;
+  margin: auto;
+}
+.feedback-container h3{
+  padding: 65px 0 25px;
+  font-size: 20px;
+}
+.feedback-container h3 span{
+  color: var(--primary-color);
+}
+.feedback-container h3 img{
+  cursor: pointer;
+}
+.feedback .feedback-container p{
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.feedback-container .icon div:first-child{
+  padding: 6px 14px;
+  border-radius: 2px;
+  cursor:pointer;
+}
+.feedback-container .icon div:last-child{
+  padding: 6px 10px;
+  border-radius: 2px;
+  cursor:pointer;
+}
+.feedback-container .icon{
+  padding-bottom: 40px;
+}
+.feedback .arrow-up{
+  position: absolute;
+  top: -24px;
+  left: 335px;
+}
+/* Feedback Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
