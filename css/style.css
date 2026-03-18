@@ -503,7 +503,7 @@ nav{
 .feedback .arrow-up{
   position: absolute;
   top: -24px;
-  left: 335px;
+  left: 260px;
 }
 /* Feedback Section End */
 @media (max-width: 1200px) {
@@ -527,6 +527,10 @@ nav{
 /* About Us */
 .aboutUs .title .para{
   padding: 0 12px;
+}
+/* Feedback section */
+.feedback .arrow-up{
+  left: 180px;
 }
 }
 @media (max-width: 992px) {
@@ -585,6 +589,11 @@ nav{
   grid-template-columns: repeat(2,1fr);
   gap: 50px;
 }
+/* Feedback Section */
+/* Feedback section */
+.feedback .arrow-up{
+  left: 80px;
+}
 }
 @media (max-width: 768px) {
   /* Header */
@@ -617,6 +626,14 @@ nav{
 /* Team section */
 .team-container {
   gap: 20px;
+}
+/* feedback section */
+.feedback .feedback-container >div{
+  width: 100%;
+  padding: 0 20px;
+}
+.feedback .arrow-up{
+  left: 20px;
 }
 }
 @media (max-width: 576px) {
