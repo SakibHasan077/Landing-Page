@@ -506,6 +506,14 @@ nav{
   left: 260px;
 }
 /* Feedback Section End */
+/* Skill Section Start */
+.skill{
+  background-image: linear-gradient(rgba(21, 26, 28, 0.7), rgba(21, 26, 28, 0.7)),url(../image/skill-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* Skill Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
