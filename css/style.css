@@ -513,6 +513,14 @@ nav{
   background-position: center;
   background-size: cover;
 }
+.skill .title h2{
+  padding-top: 65px;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.skill .title p{
+  font-size: 15px;
+}
 /* Skill Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
