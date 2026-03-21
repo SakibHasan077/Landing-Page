@@ -521,6 +521,57 @@ nav{
 .skill .title p{
   font-size: 15px;
 }
+.skill-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  text-align: center;
+}
+
+/* Circle Progress */
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 10px;
+  background: conic-gradient(#f1c40f calc(var(--percent) * 1%), #444 0%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background: #111;
+  border-radius: 50%;
+}
+
+.circle span {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f1c40f;
+}
+
+.skill h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* Set percentage using attribute */
+.circle[data-percent="90"] { --percent: 90; }
+.circle[data-percent="96"] { --percent: 96; }
+.circle[data-percent="85"] { --percent: 85; }
+.circle[data-percent="94"] { --percent: 94; }
 /* Skill Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
