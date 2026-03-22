@@ -596,5 +596,20 @@
   </section>
   <!-- Skill Section End -->
   <script src="./js/bootstrap.bundle.min.js"></script>
+  <script>
+  const circumference = 2 * Math.PI * 50;
+
+  function animateCircles() {
+    document.querySelectorAll('.circle-progress').forEach(circle => {
+      const percent = parseFloat(circle.dataset.percent);
+      const offset = circumference - (percent / 100) * circumference;
+      circle.style.strokeDashoffset = offset;
+    });
+  }
+
+  window.addEventListener('load', () => {
+    setTimeout(animateCircles, 300);
+  });
+</script>
 </body>
 </html>
