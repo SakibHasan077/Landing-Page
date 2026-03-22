@@ -521,57 +521,80 @@ nav{
 .skill .title p{
   font-size: 15px;
 }
-.skill-container {
+.skills-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url(../image/skill-bg.jpg);
+      background-size: cover;
+      background-position: center;
+      opacity: 0.9;
+      z-index: 0;
+    }
+.skills-grid {
   display: flex;
   justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
-.skill {
-  text-align: center;
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
 }
 
-/* Circle Progress */
-.circle {
+.circle-wrap {
+  position: relative;
   width: 120px;
   height: 120px;
-  border-radius: 50%;
-  position: relative;
-  margin-bottom: 10px;
-  background: conic-gradient(#f1c40f calc(var(--percent) * 1%), #444 0%);
+}
+
+.circle-wrap svg {
+  width: 120px;
+  height: 120px;
+  transform: rotate(-90deg);
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #333333;
+  stroke-width: 6;
+}
+
+.circle-progress {
+  fill: none;
+  stroke: #f0c030;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-dasharray: 314;
+  stroke-dashoffset: 314;
+  transition: stroke-dashoffset 1.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.circle-label {
+  position: absolute;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #f0c030;
 }
 
-.circle::before {
-  content: "";
-  position: absolute;
-  width: 90px;
-  height: 90px;
-  background: #111;
-  border-radius: 50%;
+.skill-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #f0c030;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
-
-.circle span {
-  position: relative;
-  font-size: 20px;
-  font-weight: bold;
-  color: #f1c40f;
-}
-
-.skill h4 {
-  margin-top: 10px;
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
-/* Set percentage using attribute */
-.circle[data-percent="90"] { --percent: 90; }
-.circle[data-percent="96"] { --percent: 96; }
-.circle[data-percent="85"] { --percent: 85; }
-.circle[data-percent="94"] { --percent: 94; }
 /* Skill Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
