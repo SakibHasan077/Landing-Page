@@ -615,6 +615,8 @@ nav{
 }
 .client .title .para{
   margin-top: 30px;
+  font-size: 15px;
+  font-weight: 300;
 }
 /* Client Section End */
 @media (max-width: 1200px) {
