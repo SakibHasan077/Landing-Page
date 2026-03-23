@@ -596,6 +596,27 @@ nav{
   margin-bottom: 50px;
 }
 /* Skill Section End */
+/* Client Section Start */
+.client{
+  margin-top: 60px;
+}
+.client .title .subhead{
+  margin-bottom: 25px;
+}
+.client .title h2{
+  margin-bottom: 25px ;
+}
+.client .title span{
+  display: block;
+  width: 170px ;
+  height: 2px ;
+  background-color: var(--primary-color);
+  margin: auto;
+}
+.client .title .para{
+  margin-top: 30px;
+}
+/* Client Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
