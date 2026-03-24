@@ -721,6 +721,16 @@ nav{
 .feedback .arrow-up{
   left: 80px;
 }
+/* OurClient */
+.ourClients{
+  margin-top: 70px;
+}
+.ourClient-container{
+  grid-template-columns: repeat(3,1fr);
+}
+.ourClient-container .item{
+  padding-top: 40px;
+}
 }
 @media (max-width: 768px) {
   /* Header */
@@ -789,5 +799,9 @@ nav{
   grid-template-columns: repeat(1,25rem);
   justify-content: center;
   gap: 50px;
+}
+/* OurClient */
+.ourClient-container{
+  grid-template-columns: repeat(2,1fr);
 }
 }
