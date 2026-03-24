@@ -618,6 +618,20 @@ nav{
   font-size: 15px;
   font-weight: 300;
 }
+/* ourClient */
+.ourClients{
+  margin-top: 98px;
+}
+.ourClient-container{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+.ourClient-container .item img{
+  height: 30px;
+}
 /* Client Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
