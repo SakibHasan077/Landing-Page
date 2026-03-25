@@ -635,7 +635,7 @@ nav{
 .client .arrows{
   margin-top: 70px;
 }
-.client .arrows .first,.second{
+.client .arrows .first,.arrows .second{
   padding: 7px 16px;
   background-color: var(--primary-color);
   margin-left: 30px;
