@@ -636,12 +636,15 @@ nav{
   margin-top: 70px;
 }
 .client .arrows .first,.second{
-  padding: 10px 20px;
+  padding: 7px 16px;
   background-color: var(--primary-color);
   margin-left: 30px;
   cursor: pointer;
 }
 .client .arrows .first img{
+  width: 15px;
+}
+.client .arrows .second img{
   width: 15px;
 }
 /* Client Section End */
