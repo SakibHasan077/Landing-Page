@@ -648,6 +648,37 @@ nav{
   width: 15px;
 }
 /* Client Section End */
+/* Review Section Start */
+.review{
+  background-image: url(../image/review-bg.png);
+  padding: 65px 0 50px;
+  margin-top: 65px;
+}
+.review .para{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.review .horizontal-line{
+  height: 2px;
+  display: block;
+  width: 170px;
+  background-color: var(--primary-color);
+  margin: auto;
+}
+.review .clientNames{
+  margin: 25px 0;
+}
+.review .dots span{
+  display: inline-block;
+  width: 5px ;
+  height: 5px;
+  background-color: var(--white);
+  margin-right: 7px;
+}
+.review .dots span:first-child{
+  background-color: var(--primary-color);
+}
+/* Review Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
