@@ -679,6 +679,29 @@ nav{
   background-color: var(--primary-color);
 }
 /* Review Section End */
+/* Contact-us Section Start */
+.contact-us .title{
+  margin-top: 65px;
+}
+.contact-us .title .subHead{
+  margin-bottom: 25px;
+}
+.contact-us .title h2{
+  margin-bottom: 25px;
+}
+.contact-us .title span{
+  height: 2px ;
+  width: 175px;
+  background-color: var(--primary-color);
+  margin: auto;
+  display: block;
+}
+.contact-us .title .para{
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: 300;
+}
+/* Contact-us Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
