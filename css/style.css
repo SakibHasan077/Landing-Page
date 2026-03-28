@@ -858,6 +858,18 @@ nav{
 .feedback .arrow-up{
   left: 20px;
 }
+/* Contact Info  */
+.contact-info-container{
+  grid-template-columns: repeat(2,1fr);
+}
+.contact-info .contact-item{
+  margin-bottom: 30px;
+}
+.contact-info .item-3{
+  position: relative;
+  left: 50%;
+}
+
 }
 @media (max-width: 576px) {
   /* Header */
@@ -889,5 +901,13 @@ nav{
 /* OurClient */
 .ourClient-container{
   grid-template-columns: repeat(2,1fr);
+}
+/* Contact-Info */
+/* Contact Info  */
+.contact-info-container{
+  grid-template-columns: repeat(1,1fr);
+}
+.contact-info .item-3{
+  left: 0%;
 }
 }
