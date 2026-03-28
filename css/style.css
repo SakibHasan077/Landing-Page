@@ -701,6 +701,23 @@ nav{
   font-size: 15px;
   font-weight: 300;
 }
+/* Contact-info */
+.contact-info{
+  margin-top: 70px;
+}
+.contact-info-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.contact-info .contact-item .img-sec{
+  margin-bottom: 25px;
+}
+.contact-info .contact-item h3{
+  margin-bottom: 30px;
+}
+.contact-info .contact-item p{
+  color: #515151;
+}
 /* Contact-us Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
