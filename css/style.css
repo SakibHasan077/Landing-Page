@@ -719,6 +719,16 @@ nav{
   color: #515151;
 }
 /* Contact-us Section End */
+/* Message Section Start */
+.massage{
+  margin-top: 65px;
+  min-height: 560px;
+  background-image: url(../image/message-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* Message Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
