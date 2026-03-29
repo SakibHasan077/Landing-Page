@@ -726,7 +726,15 @@ nav{
   background-image: url(../image/message-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  
+}
+.massage .title{
+  padding-top: 65px;
+}
+.massage .title h2{
+  font-size: 30px;
+}
+.massage .title p{
+  margin-top: 25px;
 }
 /* Message Section End */
 @media (max-width: 1200px) {
