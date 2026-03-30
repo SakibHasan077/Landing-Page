@@ -921,7 +921,16 @@ nav{
   position: relative;
   left: 50%;
 }
-
+/* Message Section */
+.massage .form-section form{
+  grid-template-columns: repeat(1,1fr);
+}
+.massage .form-section form  button{
+  grid-column: 1/2;
+}
+.massage .form-section form .text-message{
+  grid-column: span 1;
+}
 }
 @media (max-width: 576px) {
   /* Header */
