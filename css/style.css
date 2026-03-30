@@ -736,6 +736,39 @@ nav{
 .massage .title p{
   margin-top: 25px;
 }
+.massage .form-section form{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.massage .form-section form .text-message{
+  grid-column: span 3;
+}
+.massage .form-section form .userName, form .userMail, form .subject{
+  padding: 24px 20px;
+  background: transparent;
+  border: 2px solid var(--white);
+}
+.massage .form-section form .userName::placeholder, form .userMail::placeholder, form .subject::placeholder ,form .text-message::placeholder{
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 100;
+}
+.massage .form-section form .text-message{
+  border: 2px solid var(--white);
+  background: transparent;
+  padding: 22px 20px 170px;
+}
+.massage .form-section form  button{
+  border: 0;
+  background-color: var(--primary-color);
+  width: 170px;
+  padding: 15px 0;
+  grid-column: 2/3;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
 /* Message Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
