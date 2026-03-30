@@ -768,6 +768,7 @@ nav{
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 70px;
 }
 /* Message Section End */
 @media (max-width: 1200px) {
