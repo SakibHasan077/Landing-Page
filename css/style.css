@@ -771,6 +771,34 @@ nav{
   margin-bottom: 70px;
 }
 /* Message Section End */
+/* Footer Section Start */
+footer{
+  background-color: hsl(255deg 10% 7.84%);
+}
+.footer-container p{
+  padding-top: 25px;
+  font-weight: 200;
+}
+.footer-container p span{
+  color: var(--primary-color);
+}
+.footer-container .icons{
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+.footer-container .icons span{
+  display: inline-block;
+  padding-right: 23px;
+}
+.footer-container .icons span img{
+  cursor: pointer;
+}
+.footer-container .arrow-up-btn{
+  background-color: var(--primary-color);
+  padding: 15px 20px;
+  cursor: pointer;
+}
+/* Footer Section End */
 @media (max-width: 1200px) {
 /* Portfolio Image Section */
 .portfolio-img-sec{
