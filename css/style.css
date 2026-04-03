@@ -74,6 +74,8 @@ nav{
   background-color: var(--primary-color);
   border: 0;
   padding: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 /* header Section End */
 /* Service Section Start */
